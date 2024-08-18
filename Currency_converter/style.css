@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("high-angle-red-arrows_23-2148490553.jpg");
+    background-size: cover;
+    font-weight: bold;
+    font-family:Monospace , Arial, Helvetica, sans-serif ;
+}
+
+.container{
+    background-color: #fff;
+    padding: 2rem;
+    min-height: 45vh;
+    width: 40vh;
+    border-radius: 1rem;
+}
+
+form{
+    margin: 2rem 0rem 1rem 0rem;
+}
+
+form select, button, input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form .amount input{
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: 1px solid lightgray;
+    padding-left: 0.5rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+/* .selectcontainer{
+    padding-left: 1rem;
+} */
+
+.selectcontainer img{
+    max-width: 2rem;
+}
+
+.selectcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;;
+}
+
+.dropdown i{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.selectcontainer select{
+    font-size: 1rem;
+    width: auto;
+}
+
+.msg{
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+form button{
+    background-color: #af4d98;
+    height: 3rem;
+    color: #fff;
+    font-size: 1.15rem;
+    cursor: pointer;
+}
